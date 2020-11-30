@@ -4,7 +4,7 @@ Download latest chromedriver.exe into the same folder from here: https://chromed
 
 Edit .env and update variables `NAME`, `EMAIL` and `CHECKOUT_URL` with your values
 
-Open command promp and run `npm install`
+Open command prompt and run `npm install`
 
 Run `checkin.exe` when you start work
 
