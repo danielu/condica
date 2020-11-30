@@ -6,7 +6,8 @@ Edit .env and update variables `NAME`, `EMAIL` and `CHECKOUT_URL` with your valu
 
 Open command prompt and run `npm install`
 
-Run `checkin.exe` when you start work
+Run `checkin.bat` when you start work
 
-Run `checkout.exe` when you finish work
+Run `checkout.bat` when you finish work
 
+You cand create desktop shortcuts for these two files and run them when you need
