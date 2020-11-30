@@ -1,8 +1,8 @@
-Install Node.js from here: https://nodejs.org/en/
+Install `Node.js` from here: https://nodejs.org/en/
 
-Download latest chromedriver.exe into the same folder from here: https://chromedriver.chromium.org/
+Download latest `chromedriver.exe` into the same folder you checked out the project from here: https://chromedriver.chromium.org/
 
-Edit .env and update variables `NAME`, `EMAIL` and `CHECKOUT_URL` with your values
+Edit `.env` and update variables `NAME`, `EMAIL` and `CHECKOUT_URL` with your values
 
 Open command prompt and run `npm install`
 
