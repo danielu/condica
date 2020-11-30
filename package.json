@@ -1,0 +1,12 @@
+{
+  "name": "condica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "general.js",
+  "dependencies": {
+    "dotenv": "latest",
+    "selenium-webdriver": "latest"
+  },
+  "author": "",
+  "license": "ISC"
+}
