@@ -21,7 +21,7 @@ const url = process.env.CHECKOUT_URL;
   } catch(e) {
 	console.log("err", e)
   }finally {
-   // driver.quit();
+    driver.quit();
   }
 
 }());
