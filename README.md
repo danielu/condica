@@ -6,8 +6,13 @@ Edit `.env` and update variables `NAME`, `EMAIL`, `CHECKOUT_URL` nad `CHECKIN_UR
 
 Open command prompt and run `npm install`
 
+For Windows:
 Run `checkin.bat` when you start work
 
 Run `checkout.bat` when you finish work
 
 You cand create desktop shortcuts for these two files and run them when you need
+
+
+For Linux users, run in terminal: `node checkin.js` and `node checkout.js` or create your own bash files with the commands
+
