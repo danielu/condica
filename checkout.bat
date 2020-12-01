@@ -1,1 +1,1 @@
-start node general.js
+start node checkout.bat
