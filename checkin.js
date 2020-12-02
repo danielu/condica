@@ -22,16 +22,16 @@ const url = process.env.CHECKIN_URL;
 	await driver.findElement(By.xpath("//div[@role='button']")).sendKeys(Key.ENTER)
 
 	let el = await driver.findElement(By.xpath("//div[text()='Locul de desfasurare a activitatii']"));
-	await driver.wait(until.elementIsVisible(el),1000);
-	await driver.findElement(By.css('div.freebirdFormviewerViewFormCard.exportFormCard > div > div.freebirdFormviewerViewItemList > div:nth-child(3) > div > div > div.freebirdFormviewerComponentsQuestionRadioRoot > div:nth-child(2) > div > span > div > div:nth-child(1)')).click()
-	await driver.sleep(200)
+	await driver.wait(until.elementIsVisible(el), 1000);
+	await driver.findElement(By.css('div.freebirdFormviewerComponentsQuestionRadioChoicesContainer > div:nth-child(1) > label')).click()
+	await driver.sleep(500)
 	await driver.findElement(By.css('div.freebirdFormviewerViewNavigationNavControls > div.freebirdFormviewerViewNavigationButtonsAndProgress > div > div:nth-child(2)')).sendKeys(Key.ENTER)
 	let el2 = await driver.findElement(By.xpath("//div[text()='Orar de activitate']"));
 	await driver.wait(until.elementIsVisible(el2),1000);
 	await driver.findElement(By.css('div.freebirdFormviewerComponentsQuestionTimeRoot > div > div:nth-child(1) > div.quantumWizTextinputPaperinputEl.freebirdFormviewerComponentsQuestionTimeTimeInput.freebirdThemedInput.freebirdThemedInputDarkerDisabled.freebirdFormviewerComponentsQuestionTimeInput.modeLight > div.quantumWizTextinputPaperinputMainContent.exportContent > div > div.quantumWizTextinputPaperinputInputArea > input')).sendKeys('08');		
 	await driver.findElement(By.css('div.freebirdFormviewerComponentsQuestionTimeRoot > div > div:nth-child(3) > div > div.quantumWizTextinputPaperinputMainContent.exportContent > div > div.quantumWizTextinputPaperinputInputArea > input')).sendKeys('00');		
-	await driver.findElement(By.css('div.freebirdFormviewerViewNavigationNavControls > div.freebirdFormviewerViewNavigationButtonsAndProgress > div.freebirdFormviewerViewNavigationLeftButtons > div.appsMaterialWizButtonEl.appsMaterialWizButtonPaperbuttonEl.appsMaterialWizButtonPaperbuttonFilled.freebirdFormviewerViewNavigationSubmitButton.freebirdThemedFilledButtonM2.isUndragged')).sendKeys(Key.ENTER)
-	await driver.findElement(By.xpath("//div[@role='button']")).sendKeys(Key.ENTER)
+	await driver.findElement(By.css('div.freebirdFormviewerViewNavigationNavControls > div.freebirdFormviewerViewNavigationButtonsAndProgress > div > div:nth-child(2)')).sendKeys(Key.ENTER)
+	await driver.sleep(2000)
   } catch(e) {
 	console.log("err", e)
   }finally {
