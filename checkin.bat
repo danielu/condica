@@ -1,1 +1,1 @@
-start node checkin.bat
+start node checkin.js
